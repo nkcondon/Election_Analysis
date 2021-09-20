@@ -8,6 +8,8 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 3. Calculate the total number of votes each candidate recieved.
 4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular vote.
+6. Calculate county votes for each county.
+7. Calculate which county had the largest turnout.
 
 ## Resources
 - Data Source:  election results.csv
@@ -15,21 +17,27 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
 ## Summary
 The analysis of the election show that:
-- There were "x" votes cast in the election.
+- There were 369,711 votes cast in the election.
 - The candidates were:
-  - Candidate 1
-  - Candidate 2
-  - Candidate 3
+  - Charles Casper Stockham
+  - Diana Degett
+  - Raymon Anthony Doane
 - The candidate results were:
-  - Candidate 1 received "X%" of the vote and "y" number of votes.
-  - Candidate 2 received "x%" of the vote and "y" number of votes.
-  - Candidate 3 received "x%" of the vote and "y" number of votes.
+  - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
+  - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
+  - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 - The winner of the election was:
-    - Candidate (, 2, or 3), who recieved "x%" of the vote and "y" number of votes.
+    - Diana DeGette recieved 73.8% of the vote and 272,892 number of votes.
+- County Votes:
+  - Jefferson contributed 10.5% of the votes (38,885 votes).
+  - Denver contributed 82.8% of the votes (306,055 votes).
+  - Arapahoe contributed 6.7% of the votes (24,801 votes).
+  ![image](https://user-images.githubusercontent.com/89953246/133951048-59dfc64b-f442-4f07-aa13-a247ce5b4107.png)
+![image](https://user-images.githubusercontent.com/89953246/133951090-a43be85d-2d39-4254-aae0-052331eac852.png)
 
-## Challenge Overview
+## Election-Audit Summary: 
+This script quickly identifies the each candidate's vote count, county vote counts and the winner. It would be important to identify the number of people eligible to vote to assess voter turnout.  The percentages could be misleading based on the county population. Another modification could be the candidates political affiliation (republican, democrat or independent) or age group of voters.  
 
-## Challenge Summary
  
 
 
