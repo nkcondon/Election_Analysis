@@ -43,15 +43,13 @@ winning_candidate = ""
 winning_count = 0
 winning_percentage = 0
 
-# Open the election results and read the file.
-with open(file_to_load) as election_data:
-    file_reader = csv.reader(election_data)
-    
+
+reader = csv.reader(election_data)
     # Read and the header row.
-    headers = next(file_reader)
+headers = next(file_reader)
 
     # Print each row in the csv file.
-    for row in file_reader:
+for row in file_reader:
 
         # Add to the total vote count.
         total_votes += 1
